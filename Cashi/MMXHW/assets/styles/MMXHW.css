@@ -52,16 +52,35 @@
 
 /* icono ojo login */
 .iconEye {
-  background-color: #efefef !important;
+  /* padding-left: 0px !important; */
+  margin-left: 0px !important;
+  background-color: transparent !important;
   border-radius: 0px;
   /*    border-width: 0px!important;*/
-  height: 45px !important;
-  width: 45px !important;
+  /* height: 34px !important; */
+  /* width: 34px !important; */
   color: black !important;
-  margin-top: 16px !important;
-  margin-left: -30px !important;
-  margin-right: 10vh !important;
+  margin-top: 6px !important;
+  /* margin-left: -30px !important;*/
+  /* margin-right: 10vh !important; */
   border: none !important;
   border-bottom: 1px solid !important;
   border-color: #333 !important;
+  outline: none !important;
+}
+
+.iconEye:focus {
+  background-color: red;
+  outline: none;
+  box-shadow: none;
+}
+
+#G_VLOGINWBPX_816703_VAL .col-xs-2 {
+  /* background-color: #bbea7b; */
+  padding-left: 0px;
+}
+
+#G_VLOGINWBPX_816703_VAL .col-xs-10 {
+  /* background-color: #bbea7b; */
+  padding-right: 0px;
 }

@@ -33,7 +33,7 @@
 			"componentStyle": null,
 			"customEvents": [
 				{
-					"customEventId": "CEVC_002T_MMXHWLCRAFANT_448_288",
+					"customEventId": "CEVC_002T_MMXHWLCRAFANT_448_156",
 					"customizationLayer": 0,
 					"customizationLayerDescription": "ECU",
 					"enabled": "T",
@@ -259,7 +259,7 @@
 												},
 												"maxRecords": null,
 												"name": "contrasena",
-												"options": 0,
+												"options": 16384,
 												"order": 3,
 												"readOnly": 8,
 												"responsiveLayouts": null,

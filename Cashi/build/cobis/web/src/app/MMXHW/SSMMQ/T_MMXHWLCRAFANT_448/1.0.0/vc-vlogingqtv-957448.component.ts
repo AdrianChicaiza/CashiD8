@@ -47,7 +47,7 @@ let formGroupArray = {
 UserLogin: viewState.T_MMXHWLCRAFANT_448.controls.UserLogin as FormGroup ,
 Contactanos: viewState.T_MMXHWLCRAFANT_448.controls.Contactanos as FormGroup
 };
-this.metaData = { moduleId: 'MMXHW', subModuleId: 'SSMMQ', taskId: 'T_MMXHWLCRAFANT_448', taskVersion: '1.0.0', vcId: 'VC_VLOGINGQTV_957448', serverEvents: true, pageInfoEvents: new CobisModelPageInfoEvents(false, false), urlRestService: this.designer.cobisCommons.environment.values.dsgUrlRestService + '/MMXHW/SSMMQ/T_MMXHWLCRAFANT_448', model: new Model(formGroupArray), viewState: viewState, loadCatalogsInfo: new Map<string, ICobisLoadCatalogInfo>([ ]), catalogsCobisInfo: new Map<string, ICobisCatalogCobisInfo>([ ]), queriesInfo: new Map<string, ICobisQueryInfo>([ ]), chartsInfo: new Map<string, ICobisChartInfo[]>([ ]), listsValues: new Map<string, ICobisListValuesInfo>([ ]) , label: 'VLogin' }; this.breadcrumbService.getRoutes(this.metaData);
+this.metaData = { moduleId: 'MMXHW', subModuleId: 'SSMMQ', taskId: 'T_MMXHWLCRAFANT_448', taskVersion: '1.0.0', vcId: 'VC_VLOGINGQTV_957448', serverEvents: true, pageInfoEvents: new CobisModelPageInfoEvents(true, false), urlRestService: this.designer.cobisCommons.environment.values.dsgUrlRestService + '/MMXHW/SSMMQ/T_MMXHWLCRAFANT_448', model: new Model(formGroupArray), viewState: viewState, loadCatalogsInfo: new Map<string, ICobisLoadCatalogInfo>([ ]), catalogsCobisInfo: new Map<string, ICobisCatalogCobisInfo>([ ]), queriesInfo: new Map<string, ICobisQueryInfo>([ ]), chartsInfo: new Map<string, ICobisChartInfo[]>([ ]), listsValues: new Map<string, ICobisListValuesInfo>([ ]) , label: 'VLogin' }; this.breadcrumbService.getRoutes(this.metaData);
 this.init(this.metaData, params);
 });
 super.inicializar();
