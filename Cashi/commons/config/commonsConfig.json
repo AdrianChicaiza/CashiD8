@@ -1,0 +1,12 @@
+{
+    "dataSources": [
+        "SYBCTS",
+        "SYBCIS",
+        "SYBDSRC"
+    ],
+    "generationSettings": {
+        "customEventImpl": "Custom",
+        "customEventImplPath": "{projectPath}\\build",
+        "frameworkName": "ANGULAR"
+    }
+}

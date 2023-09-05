@@ -1,0 +1,17 @@
+{
+	"Entities": {
+	},
+	"SSMMQ": {
+		"CompositeForms": {
+		},
+		"Forms": {
+			"T_MMXHWLCRAFANT_448": {
+				"name": "VLogin"
+			}
+		},
+		"Queries": {
+		},
+		"SubForms": {
+		}
+	}
+}

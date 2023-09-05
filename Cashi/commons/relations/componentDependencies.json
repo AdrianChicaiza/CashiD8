@@ -1,0 +1,29 @@
+{
+	"CompositeForms": {
+	},
+	"Entities": {
+	},
+	"Forms": {
+		"T_MMXHWLCRAFANT_448": {
+			"blis": [
+			],
+			"entities": {
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_MMXHW_BIENVENII_89005"
+			],
+			"queries": {
+			},
+			"subForms": [
+			]
+		}
+	},
+	"Queries": {
+	}
+}
