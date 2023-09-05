@@ -1,5 +1,11 @@
 {
 	"Entities": {
+		"EN_CONTACTSA_692": {
+			"name": "Contactanos"
+		},
+		"EN_USERLOGNI_626": {
+			"name": "UserLogin"
+		}
 	},
 	"SSMMQ": {
 		"CompositeForms": {

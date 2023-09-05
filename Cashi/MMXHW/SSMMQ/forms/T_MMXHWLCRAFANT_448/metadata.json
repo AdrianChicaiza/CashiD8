@@ -1,5 +1,17 @@
 {
 	"entities": [
+		{
+			"entityId": "EN_CONTACTSA_692",
+			"isContextEntity": null,
+			"moduleId": "MMXHW",
+			"related": false
+		},
+		{
+			"entityId": "EN_USERLOGNI_626",
+			"isContextEntity": null,
+			"moduleId": "MMXHW",
+			"related": false
+		}
 	],
 	"queries": [
 	]

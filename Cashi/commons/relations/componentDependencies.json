@@ -2,12 +2,26 @@
 	"CompositeForms": {
 	},
 	"Entities": {
+		"EN_CONTACTSA_692": {
+			"labels": [
+			]
+		},
+		"EN_USERLOGNI_626": {
+			"labels": [
+			]
+		}
 	},
 	"Forms": {
 		"T_MMXHWLCRAFANT_448": {
 			"blis": [
 			],
 			"entities": {
+				"EN_CONTACTSA_692": [
+				],
+				"EN_USERLOGNI_626": [
+					"AT33_CONTRAAE626",
+					"AT37_USUARIOO626"
+				]
 			},
 			"externalEntities": {
 			},
@@ -16,7 +30,12 @@
 			"header": [
 			],
 			"labels": [
-				"LBL_MMXHW_BIENVENII_89005"
+				"LBL_MMXHW_BIENVENII_89005",
+				"LBL_MMXHW_CONTCTAON_34901",
+				"LBL_MMXHW_CONTRASEE_80774",
+				"LBL_MMXHW_HTPPSWWCT_82781",
+				"LBL_MMXHW_INICIARIS_21889",
+				"LBL_MMXHW_USUARIOKS_25718"
 			],
 			"queries": {
 			},

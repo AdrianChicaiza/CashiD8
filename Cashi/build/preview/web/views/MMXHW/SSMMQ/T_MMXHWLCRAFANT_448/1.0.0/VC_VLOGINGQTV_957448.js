@@ -31,7 +31,7 @@ $scope.dateFormatPlaceholder = $scope.dateFormat;
 $scope.vc.routeProvider = cobisMainModule.routeProvider;
 if (!$scope.vc.loaded) {
 var page = {
-hasInitDataSupport: false,
+hasInitDataSupport: true,
 hasChangeInitDataSupport: false,
 hasSearchRenderEvent: false,
 ejecInitData: false,
@@ -75,14 +75,39 @@ version : '1.0.0',
 user : $scope.vc.args.user
 },
 entityNames: {
+Contactanos: "Contactanos",
+UserLogin: "UserLogin"
 },
 entities : {
+Contactanos : {
+idContactos: 'AT10_IDCONTTA692',
+linkFacebook: 'AT73_LINKFABB692',
+linkInstagram: 'AT80_LINKINTS692',
+linkTwitter: 'AT94_LINKTWTR692'
+,
+_pks: [],
+_entityId: 'EN_CONTACTSA_692',
+_entityVersion: '1.0.0',
+_transient: false },
+UserLogin : {
+contrasena: 'AT33_CONTRAAE626',
+usuario: 'AT37_USUARIOO626',
+idUsuario: 'AT44_IDUSUARR626'
+,
+_pks: [],
+_entityId: 'EN_USERLOGNI_626',
+_entityVersion: '1.0.0',
+_transient: false }
 },
 relations : [
 ]
 };
 $scope.vc.queryProperties = {};
 var defaultValues = {
+Contactanos:{
+},
+UserLogin:{
+}
 };
 $scope.vc.channelDefaultValues = function(entityName, attributeName, valueIfNotExist){
 var channel = $scope.vc.args.channel;
@@ -121,23 +146,23 @@ id: "G_VLOGINGGMI_533703"
 ,enabled: designer.constants.mode.All
 ,visible: designer.constants.mode.All
 });
-//ViewState - Group: Group2994
+//ViewState - Group: Group1493
 $scope.vc.createViewState({
-id: "G_VLOGINXGYK_206703"
+id: "G_VLOGINHZRV_214703"
 ,hasId: true
-,componentStyle: []
-,label: 'Group2994'
+,componentStyle: ["backgr"]
+,label: 'Group1493'
 ,enabled: designer.constants.mode.All
 ,visible: designer.constants.mode.All
 });
 $scope.vc.createViewState({
-id: "VA_VAIMAGESUKZPQBZ_497703"
+id: "G_VLOGINHZRV_214703-default-blank"
 ,componentStyle: []
 ,label: ''
 ,validationCode: 0
 ,readOnly: designer.constants.mode.None
 ,enabled: designer.constants.mode.None
-,visible: designer.constants.mode.None
+,visible: designer.constants.mode.All
 });
 //ViewState - Group: GroupLayout2442
 $scope.vc.createViewState({
@@ -148,6 +173,11 @@ id: "G_VLOGINFPLQ_732703"
 ,enabled: designer.constants.mode.All
 ,visible: designer.constants.mode.All
 });
+$scope.vc.model.UserLogin = {
+contrasena: $scope.vc.channelDefaultValues("UserLogin","contrasena"),
+usuario: $scope.vc.channelDefaultValues("UserLogin","usuario"),
+idUsuario: $scope.vc.channelDefaultValues("UserLogin","idUsuario")
+};
 //ViewState - Group: Group2249
 $scope.vc.createViewState({
 id: "G_VLOGINWBPX_816703"
@@ -161,6 +191,108 @@ $scope.vc.createViewState({
 id: "VA_VASIMPLELABELLL_368703"
 ,componentStyle: []
 ,label: "¡Bienvenido!"
+,validationCode: 0
+,readOnly: designer.constants.mode.None
+,enabled: designer.constants.mode.None
+,visible: designer.constants.mode.All
+});
+//ViewState - Entity: UserLogin, Attribute: usuario
+$scope.vc.createViewState({
+id: "VA_1UZKJLNKXEHIQXX_216703"
+,componentStyle: ["inputStyle"]
+,label: "Usuario"
+,validationCode: 0
+,readOnly: designer.constants.mode.Query
+,enabled: designer.constants.mode.All
+,visible: designer.constants.mode.All
+});
+//ViewState - Entity: UserLogin, Attribute: contrasena
+$scope.vc.createViewState({
+id: "VA_2UGQVYVFVAJUEAI_343703"
+,componentStyle: ["inputStyle"]
+,label: "Contraseña"
+,validationCode: 0
+,readOnly: designer.constants.mode.Query
+,enabled: designer.constants.mode.All
+,visible: designer.constants.mode.All
+});
+$scope.vc.createViewState({
+id: "VA_VAIMAGEBUTTONNN_578703"
+,componentStyle: ["iconEye"]
+,imageId:"fa fa-eye"
+,label: ''
+,validationCode: 0
+,readOnly: designer.constants.mode.None
+,enabled: designer.constants.mode.All
+,visible: designer.constants.mode.All
+});
+$scope.vc.createViewState({
+id: "VA_VABUTTONSVRDNWB_452703"
+,componentStyle: ["buttonLog"]
+,label: "Iniciar Sesión"
+,validationCode: 0
+,readOnly: designer.constants.mode.None
+,enabled: designer.constants.mode.All
+,visible: designer.constants.mode.All
+});
+$scope.vc.model.Contactanos = {
+idContactos: $scope.vc.channelDefaultValues("Contactanos","idContactos"),
+linkFacebook: $scope.vc.channelDefaultValues("Contactanos","linkFacebook"),
+linkInstagram: $scope.vc.channelDefaultValues("Contactanos","linkInstagram"),
+linkTwitter: $scope.vc.channelDefaultValues("Contactanos","linkTwitter")
+};
+//ViewState - Group: Group1372
+$scope.vc.createViewState({
+id: "G_VLOGINOANM_342703"
+,hasId: true
+,componentStyle: []
+,label: 'Group1372'
+,enabled: designer.constants.mode.All
+,visible: designer.constants.mode.All
+});
+$scope.vc.createViewState({
+id: "VA_VASIMPLELABELLL_847703"
+,componentStyle: []
+,label: "¡Contáctanos!"
+,validationCode: 0
+,readOnly: designer.constants.mode.None
+,enabled: designer.constants.mode.None
+,visible: designer.constants.mode.All
+});
+$scope.vc.createViewState({
+id: "VA_VAIMAGEBUTTONNN_409703"
+,componentStyle: []
+,imageId:"fa fa-facebook"
+,label: ''
+,validationCode: 0
+,readOnly: designer.constants.mode.None
+,enabled: designer.constants.mode.All
+,visible: designer.constants.mode.All
+});
+$scope.vc.createViewState({
+id: "VA_VAIMAGEBUTTONNN_914703"
+,componentStyle: []
+,imageId:"fa fa-instagram"
+,label: ''
+,validationCode: 0
+,readOnly: designer.constants.mode.None
+,enabled: designer.constants.mode.All
+,visible: designer.constants.mode.All
+});
+$scope.vc.createViewState({
+id: "VA_VAIMAGEBUTTONNN_936703"
+,componentStyle: []
+,imageId:"fa fa-twitter"
+,label: ''
+,validationCode: 0
+,readOnly: designer.constants.mode.None
+,enabled: designer.constants.mode.All
+,visible: designer.constants.mode.All
+});
+$scope.vc.createViewState({
+id: "VA_VASIMPLELABELLL_507703"
+,componentStyle: []
+,label: "htpps://www.cuentacashi.com"
 ,validationCode: 0
 ,readOnly: designer.constants.mode.None
 ,enabled: designer.constants.mode.None

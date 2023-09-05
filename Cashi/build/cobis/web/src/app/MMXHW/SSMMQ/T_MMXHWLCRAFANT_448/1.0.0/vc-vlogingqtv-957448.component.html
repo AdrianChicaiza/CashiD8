@@ -1,0 +1,53 @@
+<!-- Designer Generator v8.0.1 - SPR 2023-01 27/01/2023 -->
+
+ 
+ 
+  <ng-container *ngTemplateOutlet="isDesignerInclude()?withOutForm:withForm"></ng-container> 
+  <ng-template #withForm> 
+   <form class="cb-form cb-module-mmxhw cb-t-mmxhwlcrafant-448 "> 
+    <cobis-breadcrumbs *ngIf="!isModal() && !isDetailGrid() && !isDesignerInclude()" [items]="breadcrumbs$ | async"></cobis-breadcrumbs> 
+    <div class="cb-form__content"> 
+     <div class="container-fluid"> 
+      <ng-container *ngTemplateOutlet="formContent"></ng-container> 
+     </div> 
+    </div> 
+    <ng-container *ngTemplateOutlet="commandButtonContent"></ng-container> 
+   </form> 
+  </ng-template> 
+  <ng-template #withOutForm> 
+   <div> 
+    <ng-container *ngTemplateOutlet="formContent"></ng-container> 
+   </div> 
+   <div> 
+    <ng-container *ngTemplateOutlet="commandButtonContent"></ng-container> 
+   </div> 
+  </ng-template> 
+  <ng-template #formContent> 
+   <cobis-groupbox [disabled]="isDisabled( vc.viewState.VC_VLOGINGQTV_957448.enabled, 'VC_VLOGINGQTV_957448')" [formGroup]="vc.viewState.T_MMXHWLCRAFANT_448" *ngIf="isVisible('VC_VLOGINGQTV_957448')" [properties]="vc.viewState.VC_VLOGINGQTV_957448" [mode]="vc.mode"> 
+    <cobis-groupbox [disabled]="isDisabled( vc.viewState.G_VLOGINGGMI_533703.enabled, 'G_VLOGINGGMI_533703', 'VC_VLOGINGQTV_957448')" *ngIf="isVisible('G_VLOGINGGMI_533703')" [properties]="vc.viewState.G_VLOGINGGMI_533703" [mode]="vc.mode"> 
+     <cobis-groupbox [disabled]="isDisabled( vc.viewState.G_VLOGINHZRV_214703.enabled, 'G_VLOGINHZRV_214703', 'G_VLOGINGGMI_533703')" *ngIf="isVisible('G_VLOGINHZRV_214703')" [properties]="vc.viewState.G_VLOGINHZRV_214703" [mode]="vc.mode"> 
+      <cobis-spacer *ngIf="isVisible('G_VLOGINHZRV_214703_default_blank')" [properties]="vc.viewState.G_VLOGINHZRV_214703_default_blank"></cobis-spacer> 
+     </cobis-groupbox> 
+     <cobis-groupbox [disabled]="isDisabled( vc.viewState.G_VLOGINFPLQ_732703.enabled, 'G_VLOGINFPLQ_732703', 'G_VLOGINGGMI_533703')" *ngIf="isVisible('G_VLOGINFPLQ_732703')" [properties]="vc.viewState.G_VLOGINFPLQ_732703" [mode]="vc.mode"> 
+      <cobis-groupbox [disabled]="isDisabled( vc.viewState.G_VLOGINWBPX_816703.enabled, 'G_VLOGINWBPX_816703', 'G_VLOGINFPLQ_732703', 'UserLogin',vc.viewState.T_MMXHWLCRAFANT_448)" *ngIf="isVisible('G_VLOGINWBPX_816703',true)" [properties]="vc.viewState.G_VLOGINWBPX_816703" [mode]="vc.mode" formGroupName="UserLogin"> 
+       <cobis-textlabel *ngIf="isVisible('VA_VASIMPLELABELLL_368703')" [properties]="vc.viewState.VA_VASIMPLELABELLL_368703"></cobis-textlabel>
+       <cobis-textinputbox [attr.disabled]="isDisabled( vc.viewState.VA_1UZKJLNKXEHIQXX_216703.enabled, 'VA_1UZKJLNKXEHIQXX_216703', 'G_VLOGINWBPX_816703', 'UserLogin.usuario',vc.viewState.T_MMXHWLCRAFANT_448)" *ngIf="isVisible('VA_1UZKJLNKXEHIQXX_216703')" [properties]="vc.viewState.VA_1UZKJLNKXEHIQXX_216703" [mode]="vc.mode" formControlName="usuario"></cobis-textinputbox>
+       <cobis-textinputbox [attr.disabled]="isDisabled( vc.viewState.VA_2UGQVYVFVAJUEAI_343703.enabled, 'VA_2UGQVYVFVAJUEAI_343703', 'G_VLOGINWBPX_816703', 'UserLogin.contrasena',vc.viewState.T_MMXHWLCRAFANT_448)" *ngIf="isVisible('VA_2UGQVYVFVAJUEAI_343703')" [properties]="vc.viewState.VA_2UGQVYVFVAJUEAI_343703" [mode]="vc.mode" formControlName="contrasena"></cobis-textinputbox>
+       <cobis-button [disabled]="isDisabled(vc.viewState.VA_VAIMAGEBUTTONNN_578703.enabled,'VA_VAIMAGEBUTTONNN_578703', 'G_VLOGINWBPX_816703')" *ngIf="isVisible('VA_VAIMAGEBUTTONNN_578703')" [properties]="vc.viewState.VA_VAIMAGEBUTTONNN_578703" [mode]="vc.mode"></cobis-button> 
+       <cobis-button [disabled]="isDisabled(vc.viewState.VA_VABUTTONSVRDNWB_452703.enabled,'VA_VABUTTONSVRDNWB_452703', 'G_VLOGINWBPX_816703')" *ngIf="isVisible('VA_VABUTTONSVRDNWB_452703')" [properties]="vc.viewState.VA_VABUTTONSVRDNWB_452703" [mode]="vc.mode"></cobis-button> 
+      </cobis-groupbox> 
+      <cobis-groupbox [disabled]="isDisabled( vc.viewState.G_VLOGINOANM_342703.enabled, 'G_VLOGINOANM_342703', 'G_VLOGINFPLQ_732703', 'Contactanos',vc.viewState.T_MMXHWLCRAFANT_448)" *ngIf="isVisible('G_VLOGINOANM_342703',true)" [properties]="vc.viewState.G_VLOGINOANM_342703" [mode]="vc.mode" formGroupName="Contactanos"> 
+       <cobis-textlabel *ngIf="isVisible('VA_VASIMPLELABELLL_847703')" [properties]="vc.viewState.VA_VASIMPLELABELLL_847703"></cobis-textlabel>
+       <cobis-button [disabled]="isDisabled(vc.viewState.VA_VAIMAGEBUTTONNN_409703.enabled,'VA_VAIMAGEBUTTONNN_409703', 'G_VLOGINOANM_342703')" *ngIf="isVisible('VA_VAIMAGEBUTTONNN_409703')" [properties]="vc.viewState.VA_VAIMAGEBUTTONNN_409703" [mode]="vc.mode"></cobis-button> 
+       <cobis-button [disabled]="isDisabled(vc.viewState.VA_VAIMAGEBUTTONNN_914703.enabled,'VA_VAIMAGEBUTTONNN_914703', 'G_VLOGINOANM_342703')" *ngIf="isVisible('VA_VAIMAGEBUTTONNN_914703')" [properties]="vc.viewState.VA_VAIMAGEBUTTONNN_914703" [mode]="vc.mode"></cobis-button> 
+       <cobis-button [disabled]="isDisabled(vc.viewState.VA_VAIMAGEBUTTONNN_936703.enabled,'VA_VAIMAGEBUTTONNN_936703', 'G_VLOGINOANM_342703')" *ngIf="isVisible('VA_VAIMAGEBUTTONNN_936703')" [properties]="vc.viewState.VA_VAIMAGEBUTTONNN_936703" [mode]="vc.mode"></cobis-button> 
+       <cobis-textlabel *ngIf="isVisible('VA_VASIMPLELABELLL_507703')" [properties]="vc.viewState.VA_VASIMPLELABELLL_507703"></cobis-textlabel> 
+      </cobis-groupbox> 
+     </cobis-groupbox> 
+    </cobis-groupbox> 
+   </cobis-groupbox> 
+  </ng-template> 
+  <ng-template #commandButtonContent> 
+  </ng-template> 
+  <cobis-modal *ngIf="! isModal() && ! isRegisteredView"></cobis-modal>
+ 

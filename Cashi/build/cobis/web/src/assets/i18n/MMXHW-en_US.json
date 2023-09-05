@@ -1,5 +1,10 @@
 {
 	"MMXHW": {
-		"LBL_MMXHW_BIENVENII_89005": "\u00a1Bienvenido!"
+		"LBL_MMXHW_BIENVENII_89005": "\u00a1Bienvenido!",
+		"LBL_MMXHW_CONTCTAON_34901": "\u00a1Cont\u00e1ctanos!",
+		"LBL_MMXHW_CONTRASEE_80774": "Contrase\u00f1a",
+		"LBL_MMXHW_HTPPSWWCT_82781": "htpps://www.cuentacashi.com",
+		"LBL_MMXHW_INICIARIS_21889": "Iniciar Sesi\u00f3n",
+		"LBL_MMXHW_USUARIOKS_25718": "Usuario"
 	}
 }

@@ -1,2 +1,16 @@
 [
+	{
+		"attributeName": "",
+		"controlId": "VC_VLOGINGQTV_957448",
+		"controlName": "",
+		"controlType": "",
+		"customEvents": [
+			{
+				"eventName": "initData",
+				"executionType": 3
+			}
+		],
+		"entityName": "",
+		"eventsType": "viewContainerEventType"
+	}
 ]

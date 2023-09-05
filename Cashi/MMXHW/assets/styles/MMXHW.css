@@ -7,14 +7,61 @@
 /* Espacio derecha >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 #G_VLOGINFPLQ_732703 {
   background-color: bisque;
+  padding: 20%;
 }
 
 /* Espacio izquierda <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
 #G_VLOGINXGYK_206703 {
+  /* background-color: brown; */
   background-image: url(cashiIm.jpeg);
-  width: 80vh !important;
+  /* width: 80vh !important; */
   height: 100vh !important;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+/* Imagen etiqueta */
+#VA_VAIMAGEVBNZADFK_948703 {
+  background-color: blueviolet;
+  padding: 25px;
+  border-width: 1px solid;
+}
+
+/* Inputs */
+.inputStyle {
+  border: none !important;
+  border-bottom: 1px solid !important;
+  background-color: transparent !important;
+  border-radius: 0px !important;
+  box-shadow: none !important;
+}
+
+/* boton login */
+.buttonLog {
+  background-color: #a2a2a2 !important;
+  border-radius: 20px !important;
+  color: white !important;
+  border-width: 0px !important;
+  height: 40px !important;
+}
+
+.buttonLog:hover {
+  background-color: #bbea7b !important;
+}
+
+/* icono ojo login */
+.iconEye {
+  background-color: #efefef !important;
+  border-radius: 0px;
+  /*    border-width: 0px!important;*/
+  height: 45px !important;
+  width: 45px !important;
+  color: black !important;
+  margin-top: 16px !important;
+  margin-left: -30px !important;
+  margin-right: 10vh !important;
+  border: none !important;
+  border-bottom: 1px solid !important;
+  border-color: #333 !important;
 }

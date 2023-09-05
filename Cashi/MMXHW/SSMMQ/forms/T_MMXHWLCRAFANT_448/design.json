@@ -32,6 +32,29 @@
 			"columnsNum": 1,
 			"componentStyle": null,
 			"customEvents": [
+				{
+					"customEventId": "CEVC_002T_MMXHWLCRAFANT_448_288",
+					"customizationLayer": 0,
+					"customizationLayerDescription": "ECU",
+					"enabled": "T",
+					"eventActions": [
+						{
+							"actionArgs": [
+							],
+							"actionId": "CUSTOM",
+							"actionType": "CUSTOM"
+						}
+					],
+					"executionType": 3,
+					"filter": null,
+					"isEnabled": true,
+					"viewContainerEventType": {
+						"availableExecutionType": 7,
+						"description": "Inicializaci\u00f3n de datos de un ViewContainer, despues de este evento se realiza el segimiento de cambios en los datos",
+						"eventId": 2,
+						"name": "InitData"
+					}
+				}
 			],
 			"customizationLayer": 0,
 			"customizationLayerDescription": "ECU",
@@ -67,23 +90,26 @@
 								"collapsedStr": "F",
 								"colSpan": 1,
 								"columnsNum": 3,
-								"componentStyle": null,
+								"componentStyle": {
+									"displayName": "fondo",
+									"name": "backgr"
+								},
 								"customEvents": [
 								],
 								"enabled": 4095,
 								"eventType": 0,
-								"groupId": "G_VLOGINXGYK_206703",
+								"groupId": "G_VLOGINHZRV_214703",
 								"htmlSection": "F",
 								"independentValidation": "F",
 								"isCustomized": false,
 								"layoutType": "Group",
-								"name": "Group2994",
+								"name": "Group1493",
 								"order": 1,
 								"orientation": "V",
 								"parentLayoutType": "GroupLayout",
 								"responsiveLayouts": null,
 								"responsivity": false,
-								"style": null,
+								"style": "fondo",
 								"visible": 4095,
 								"visualAttributes": [
 									{
@@ -99,21 +125,19 @@
 										"include": 4095,
 										"isCustomized": false,
 										"maxRecords": null,
-										"name": "VA_VAIMAGESUKZPQBZ_497703",
+										"name": "G_VLOGINHZRV_214703-default-blank",
 										"options": 0,
-										"order": 1,
+										"order": 0,
 										"responsiveLayouts": null,
 										"responsivity": false,
-										"sizeHeight": null,
-										"sizeWidth": null,
 										"sizeWidthComposite": null,
 										"style": null,
-										"url": "cashiIm.jpeg",
 										"userControl": {
-											"type": "E",
-											"userControlId": "Image"
+											"type": "I",
+											"userControlId": "Spacer"
 										},
-										"visualAttributeId": "VA_VAIMAGESUKZPQBZ_497703",
+										"visible": 4095,
+										"visualAttributeId": "G_VLOGINHZRV_214703-default-blank",
 										"width": null,
 										"widthComposite": "D"
 									}
@@ -133,11 +157,14 @@
 									{
 										"collapsedStr": "F",
 										"colSpan": 1,
-										"columnsNum": 3,
+										"columnsNum": 6,
 										"componentStyle": null,
 										"customEvents": [
 										],
 										"enabled": 4095,
+										"entity": {
+											"$ref": "../../../../MMXHW/entities/EN_USERLOGNI_626.json#"
+										},
 										"eventType": 0,
 										"groupId": "G_VLOGINWBPX_816703",
 										"htmlSection": "F",
@@ -156,7 +183,189 @@
 											{
 												"aggregate": null,
 												"aggregateId": null,
+												"attribute": {
+													"$ref": "../../../../MMXHW/entities/EN_USERLOGNI_626.json#/attributes/AT37_USUARIOO626"
+												},
+												"attributeValidations": [
+												],
+												"colSpan": 6,
+												"componentInGrid": false,
+												"componentStyle": {
+													"displayName": "inputStyles",
+													"name": "inputStyle"
+												},
+												"customEvents": [
+												],
+												"customizationLayer": 0,
+												"customizationLayerDescription": "ECU",
+												"enabled": 4095,
+												"format": "",
+												"include": 4095,
+												"isCustomized": false,
+												"label": {
+													"defaultValue": {
+														"$ref": "../../../../MMXHW/assets/languages/MMXHW.json#/MMXHW/LBL/LBL_MMXHW_USUARIOKS_25718"
+													},
+													"labelId": "LBL_MMXHW_USUARIOKS_25718",
+													"moduleId": "MMXHW"
+												},
+												"maxRecords": null,
+												"name": "usuario",
+												"options": 0,
+												"order": 2,
+												"readOnly": 8,
+												"responsiveLayouts": null,
+												"responsivity": false,
+												"sizeWidthComposite": null,
+												"style": "inputStyles",
+												"textRows": 0,
+												"userControl": {
+													"type": "I",
+													"userControlId": "TextInputBox"
+												},
+												"visible": 4095,
+												"visualAttributeId": "VA_1UZKJLNKXEHIQXX_216703",
+												"width": null,
+												"widthComposite": "D"
+											},
+											{
+												"aggregate": null,
+												"aggregateId": null,
+												"attribute": {
+													"$ref": "../../../../MMXHW/entities/EN_USERLOGNI_626.json#/attributes/AT33_CONTRAAE626"
+												},
+												"attributeValidations": [
+												],
+												"colSpan": 5,
+												"componentInGrid": false,
+												"componentStyle": {
+													"displayName": "inputStyles",
+													"name": "inputStyle"
+												},
+												"customEvents": [
+												],
+												"customizationLayer": 0,
+												"customizationLayerDescription": "ECU",
+												"enabled": 4095,
+												"format": "",
+												"include": 4095,
+												"isCustomized": false,
+												"label": {
+													"defaultValue": {
+														"$ref": "../../../../MMXHW/assets/languages/MMXHW.json#/MMXHW/LBL/LBL_MMXHW_CONTRASEE_80774"
+													},
+													"labelId": "LBL_MMXHW_CONTRASEE_80774",
+													"moduleId": "MMXHW"
+												},
+												"maxRecords": null,
+												"name": "contrasena",
+												"options": 0,
+												"order": 3,
+												"readOnly": 8,
+												"responsiveLayouts": null,
+												"responsivity": false,
+												"sizeWidthComposite": null,
+												"style": "inputStyles",
+												"textRows": 0,
+												"userControl": {
+													"type": "I",
+													"userControlId": "TextInputBox"
+												},
+												"visible": 4095,
+												"visualAttributeId": "VA_2UGQVYVFVAJUEAI_343703",
+												"width": null,
+												"widthComposite": "D"
+											},
+											{
+												"aggregate": null,
+												"aggregateId": null,
+												"attributeValidations": [
+												],
+												"colSpan": 6,
+												"componentInGrid": false,
+												"componentStyle": {
+													"displayName": "btnStyle",
+													"name": "buttonLog"
+												},
+												"customEvents": [
+												],
+												"customizationLayer": 0,
+												"customizationLayerDescription": "ECU",
+												"enabled": 4095,
+												"entityQuery": null,
+												"include": 4095,
+												"isCustomized": false,
+												"label": {
+													"defaultValue": {
+														"$ref": "../../../../MMXHW/assets/languages/MMXHW.json#/MMXHW/LBL/LBL_MMXHW_INICIARIS_21889"
+													},
+													"labelId": "LBL_MMXHW_INICIARIS_21889",
+													"moduleId": "MMXHW"
+												},
+												"maxRecords": null,
+												"name": "",
+												"options": 0,
+												"order": 5,
+												"queryModule": null,
+												"queryVersion": null,
+												"responsiveLayouts": null,
+												"responsivity": false,
+												"sizeWidthComposite": null,
+												"style": "btnStyle",
+												"userControl": {
+													"type": "A",
+													"userControlId": "Button"
+												},
+												"visible": 4095,
+												"visualAttributeId": "VA_VABUTTONSVRDNWB_452703",
+												"width": null,
+												"widthComposite": "D"
+											},
+											{
+												"aggregate": null,
+												"aggregateId": null,
+												"attributeValidations": [
+												],
 												"colSpan": 1,
+												"componentInGrid": false,
+												"componentStyle": {
+													"displayName": "iconEyes",
+													"name": "iconEye"
+												},
+												"customEvents": [
+												],
+												"customizationLayer": 0,
+												"customizationLayerDescription": "ECU",
+												"enabled": 4095,
+												"entityQuery": null,
+												"imageId": "fa fa-eye",
+												"include": 4095,
+												"isCustomized": false,
+												"maxRecords": null,
+												"name": "",
+												"options": 0,
+												"order": 4,
+												"queryModule": null,
+												"queryVersion": null,
+												"responsiveLayouts": null,
+												"responsivity": false,
+												"sizeWidthComposite": null,
+												"style": "iconEyes",
+												"userControl": {
+													"type": "A",
+													"userControlId": "ImageButton"
+												},
+												"visible": 4095,
+												"visualAttributeId": "VA_VAIMAGEBUTTONNN_578703",
+												"width": null,
+												"widthComposite": "D"
+											},
+											{
+												"aggregate": null,
+												"aggregateId": null,
+												"attributeValidations": [
+												],
+												"colSpan": 6,
 												"componentInGrid": false,
 												"componentStyle": null,
 												"customEvents": [
@@ -173,7 +382,7 @@
 													"moduleId": "MMXHW"
 												},
 												"maxRecords": null,
-												"name": "VA_VASIMPLELABELLL_368703",
+												"name": "",
 												"options": 0,
 												"order": 1,
 												"responsiveLayouts": null,
@@ -193,19 +402,211 @@
 									{
 										"collapsedStr": "F",
 										"colSpan": 1,
+										"columnsNum": 6,
 										"componentStyle": null,
 										"customEvents": [
 										],
 										"enabled": 4095,
+										"entity": {
+											"$ref": "../../../../MMXHW/entities/EN_CONTACTSA_692.json#"
+										},
 										"eventType": 0,
-										"groupId": "G_EMPTYLWOMA_760703",
+										"groupId": "G_VLOGINOANM_342703",
+										"htmlSection": "F",
+										"independentValidation": "F",
 										"isCustomized": false,
-										"layoutType": "Empty",
-										"name": "G_EMPTYLWOMA_760703",
+										"layoutType": "Group",
+										"name": "Group1372",
 										"order": 2,
+										"orientation": "V",
+										"parentLayoutType": "GroupLayout",
+										"responsiveLayouts": null,
+										"responsivity": false,
 										"style": null,
 										"visible": 4095,
 										"visualAttributes": [
+											{
+												"aggregate": null,
+												"aggregateId": null,
+												"attributeValidations": [
+												],
+												"colSpan": 1,
+												"componentInGrid": false,
+												"componentStyle": null,
+												"customEvents": [
+												],
+												"customizationLayer": 0,
+												"customizationLayerDescription": "ECU",
+												"enabled": 4095,
+												"entityQuery": null,
+												"imageId": "fa fa-facebook",
+												"include": 4095,
+												"isCustomized": false,
+												"maxRecords": null,
+												"name": "",
+												"options": 1024,
+												"order": 2,
+												"queryModule": null,
+												"queryVersion": null,
+												"responsiveLayouts": null,
+												"responsivity": false,
+												"sizeWidthComposite": null,
+												"style": null,
+												"userControl": {
+													"type": "A",
+													"userControlId": "ImageButton"
+												},
+												"visible": 4095,
+												"visualAttributeId": "VA_VAIMAGEBUTTONNN_409703",
+												"width": null,
+												"widthComposite": "D"
+											},
+											{
+												"aggregate": null,
+												"aggregateId": null,
+												"attributeValidations": [
+												],
+												"colSpan": 1,
+												"componentInGrid": false,
+												"componentStyle": null,
+												"customEvents": [
+												],
+												"customizationLayer": 0,
+												"customizationLayerDescription": "ECU",
+												"enabled": 4095,
+												"entityQuery": null,
+												"imageId": "fa fa-instagram",
+												"include": 4095,
+												"isCustomized": false,
+												"maxRecords": null,
+												"name": "",
+												"options": 1024,
+												"order": 3,
+												"queryModule": null,
+												"queryVersion": null,
+												"responsiveLayouts": null,
+												"responsivity": false,
+												"sizeWidthComposite": null,
+												"style": null,
+												"userControl": {
+													"type": "A",
+													"userControlId": "ImageButton"
+												},
+												"visible": 4095,
+												"visualAttributeId": "VA_VAIMAGEBUTTONNN_914703",
+												"width": null,
+												"widthComposite": "D"
+											},
+											{
+												"aggregate": null,
+												"aggregateId": null,
+												"attributeValidations": [
+												],
+												"colSpan": 1,
+												"componentInGrid": false,
+												"componentStyle": null,
+												"customEvents": [
+												],
+												"customizationLayer": 0,
+												"customizationLayerDescription": "ECU",
+												"enabled": 4095,
+												"entityQuery": null,
+												"imageId": "fa fa-twitter",
+												"include": 4095,
+												"isCustomized": false,
+												"maxRecords": null,
+												"name": "",
+												"options": 1024,
+												"order": 4,
+												"queryModule": null,
+												"queryVersion": null,
+												"responsiveLayouts": null,
+												"responsivity": false,
+												"sizeWidthComposite": null,
+												"style": null,
+												"userControl": {
+													"type": "A",
+													"userControlId": "ImageButton"
+												},
+												"visible": 4095,
+												"visualAttributeId": "VA_VAIMAGEBUTTONNN_936703",
+												"width": null,
+												"widthComposite": "D"
+											},
+											{
+												"aggregate": null,
+												"aggregateId": null,
+												"attributeValidations": [
+												],
+												"colSpan": 6,
+												"componentInGrid": false,
+												"componentStyle": null,
+												"customEvents": [
+												],
+												"customizationLayer": 0,
+												"customizationLayerDescription": "ECU",
+												"include": 4095,
+												"isCustomized": false,
+												"label": {
+													"defaultValue": {
+														"$ref": "../../../../MMXHW/assets/languages/MMXHW.json#/MMXHW/LBL/LBL_MMXHW_HTPPSWWCT_82781"
+													},
+													"labelId": "LBL_MMXHW_HTPPSWWCT_82781",
+													"moduleId": "MMXHW"
+												},
+												"maxRecords": null,
+												"name": "",
+												"options": 0,
+												"order": 5,
+												"responsiveLayouts": null,
+												"responsivity": false,
+												"sizeWidthComposite": null,
+												"style": null,
+												"userControl": {
+													"userControlId": "SimpleLabel"
+												},
+												"visible": 4095,
+												"visualAttributeId": "VA_VASIMPLELABELLL_507703",
+												"width": null,
+												"widthComposite": "D"
+											},
+											{
+												"aggregate": null,
+												"aggregateId": null,
+												"attributeValidations": [
+												],
+												"colSpan": 6,
+												"componentInGrid": false,
+												"componentStyle": null,
+												"customEvents": [
+												],
+												"customizationLayer": 0,
+												"customizationLayerDescription": "ECU",
+												"include": 4095,
+												"isCustomized": false,
+												"label": {
+													"defaultValue": {
+														"$ref": "../../../../MMXHW/assets/languages/MMXHW.json#/MMXHW/LBL/LBL_MMXHW_CONTCTAON_34901"
+													},
+													"labelId": "LBL_MMXHW_CONTCTAON_34901",
+													"moduleId": "MMXHW"
+												},
+												"maxRecords": null,
+												"name": "",
+												"options": 0,
+												"order": 1,
+												"responsiveLayouts": null,
+												"responsivity": false,
+												"sizeWidthComposite": null,
+												"style": null,
+												"userControl": {
+													"userControlId": "SimpleLabel"
+												},
+												"visible": 4095,
+												"visualAttributeId": "VA_VASIMPLELABELLL_847703",
+												"width": null,
+												"widthComposite": "D"
+											}
 										]
 									}
 								],

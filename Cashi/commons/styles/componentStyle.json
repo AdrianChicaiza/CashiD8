@@ -5,7 +5,10 @@
   "AccordionLayout": [],
   "CollapsibleLayout": [],
   "VerticalTabbedLayout": [],
-  "Group": [],
+  "Group": [{
+    "name": "backgr",
+    "displayName": "fondo"
+  }],
   "All Input Control": [],
   "CheckBox": [],
   "ComboBox": [],
@@ -15,12 +18,21 @@
   "DateTimeField": [],
   "TimePicker": [],
   "RadioButtonList": [],
-  "TextInputBox": [],
+  "TextInputBox": [{
+    "name": "inputStyle",
+    "displayName": "inputStyles"
+  }],
   "TextInputButton": [],
   "FileUpload": [],
   "All Action Controls": [],
-  "Button": [],
-  "ImageButton": [],
+  "Button": [{
+    "name": "buttonLog",
+    "displayName": "btnStyle"
+  }],
+  "ImageButton": [{
+    "name": "iconEye",
+    "displayName": "iconEyes"
+  }],
   "TextLink": [],
   "SimpleLabel": [],
   "TextLabel": [],

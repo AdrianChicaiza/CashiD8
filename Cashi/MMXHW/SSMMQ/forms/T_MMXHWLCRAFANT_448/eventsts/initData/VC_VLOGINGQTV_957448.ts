@@ -4,6 +4,6 @@
 //ViewContainer: VLogin
 task_initData_VC_VLOGINGQTV_957448 = (entities: Model, initDataEventArgs: CobisModelInitDataEventArgs) => {
 
-    initDataEventArgs.commons.execServer = false;
+    initDataEventArgs.commons.execServer = true;
 
 };
